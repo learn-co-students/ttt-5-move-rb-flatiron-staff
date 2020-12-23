@@ -13,5 +13,5 @@ def input_to_index(input)
 end
 
 def move(board, index, value = "X")
-  puts board[index] = "X"
+  puts board[index] = value
 end
